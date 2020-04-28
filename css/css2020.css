@@ -15,6 +15,7 @@ html {
 body {
 	height: 100%;
 	margin: 0;
+	padding-top: 100px;
 }
 
 h1 {
@@ -388,10 +389,10 @@ footer button:hover {
 	}
 	
 	#intro-header {
-		height: 80vh;
 		width: 100%;
 		margin-bottom: 40px;
 		padding-left: 4%;
+		padding-top: 70px;
 		display: flex;
 	}
 	
