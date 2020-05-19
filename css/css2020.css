@@ -318,8 +318,14 @@ footer button:hover {
 	color: #0E2E33;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+	.process-images {
+		grid-template-columns: 250px;
+	}
 
+	.process-images-2 {
+		grid-template-columns: 250px;
+	}
 }
 
 @media screen and (min-width: 768px) {
