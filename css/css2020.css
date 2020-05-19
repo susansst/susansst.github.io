@@ -318,16 +318,6 @@ footer button:hover {
 	color: #0E2E33;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1025px) {
-	.process-images {
-		grid-template-columns: 400px;
-	}
-
-	.process-images-2 {
-		grid-template-columns: 400px;
-	}
-}
-
 @media screen and (min-width: 768px) {
 
 	/* main */
@@ -495,7 +485,7 @@ footer button:hover {
 	.process-images {
 		width: 50%;
 		display: grid;
-		grid-template-columns: 400px 400px;
+		grid-template-columns: 400px;
 		grid-template-rows: auto;
 		margin: 0;
 	}
@@ -517,7 +507,7 @@ footer button:hover {
 	.process-images-2 {
 		width: 50%;
 		display: grid;
-		grid-template-columns: 400px 400px;
+		grid-template-columns: 400px;
 		grid-template-row: auto;
 		margin: 0 auto;
 	}
@@ -563,5 +553,17 @@ footer button:hover {
 
 	.final-mobile {
 		text-align: center;
+	}
+}
+
+@media screen and (min-width: 767px) and (max-width: 2200px) {
+	.process-images {
+		grid-template-columns: 400px;
+		grid-template-rows: auto;
+	}
+
+	.process-images-2 {
+		grid-template-columns: 400px;
+		grid-template-rows: auto;
 	}
 }
