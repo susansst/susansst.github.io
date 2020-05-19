@@ -134,11 +134,13 @@ a:hover {
 	opacity: 0.1;
 }
 
+#intro-header {
+	background-image: url("images/pattern-triangle.png");
+}
+
 .intro-text {
 	width: 80%;
 	padding: 0 7%;
-	position: relative;
-	bottom: 50px;
 }
 
 .about-text {
@@ -325,29 +327,33 @@ footer button:hover {
 	color: #0E2E33;
 }
 
+@media screen and (min-width: 600px) {
+
+}
+
 @media screen and (min-width: 768px) {
 
 	/* main */
-	
+
 	h1 {
 		font-size: 100px;
 		line-height: 96px;
 	}
-	
+
 	h2 {
 		font-size: 40px;
 		line-height: 50px;
 	}
-	
+
 	h3 {
 		font-size: 28px;
 	}
-	
+
 	p {
 		font-size: 24px;
 		line-height: 46px;
 	}
-	
+
 	.navbar {
 		display: flex;
 		justify-content: space-between;
@@ -387,94 +393,93 @@ footer button:hover {
 	.column {
 		width: 50%;
 	}
-	
+
 	#intro-header {
 		width: 100%;
 		margin-bottom: 40px;
 		padding-left: 4%;
 		padding-top: 70px;
-		display: flex;
 	}
-	
+
 	.single-block {
 		margin-bottom: 40px;
 	}
-	
+
 	.pattern img {
 		width: 700px;
 		position: absolute;
 		right: 10px;
 	}
-	
+
 	.intro-text {
 		position: inherit;
 		align-self: center;
-		width: 50%;
+		width: 75%;
 	}
-	
+
 	#projects {
 		width: 100%;
 		padding: 0 4%;
 	}
-	
+
 	.block {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
 		padding: 0 5%;
 	}
-	
+
 	.single-block {
 		width: 49%;
 		justify-content: center;
 		margin: 0 auto 40px 0;
 	}
-	
+
 	#header-image {
 		position: relative;
 		top: 80px;
 	}
-	
+
 	.florence {
 		background-image: url("../images/florence-1920-small.jpg");
 	}
-	
+
 	.greenlight {
 		background-image: url("../images/greenlight-branding-1920.jpg");
 		background-size: cover;
 	}
-	
+
 	.ganbei {
 		background-image: url("../images/ganbei-1920.jpg");
 		background-size: cover;
 	}
-	
+
 	.treasure-chores {
 		background-image: url("../images/treasurechores-1920.jpg");
 		background-size: cover;
 	}
-	
+
 	.barkbistro {
 		background-image: url("../images/barkbistro-1920.jpg");
 		background-size: cover;
 	}
-	
+
 	.billofrights {
 		background-image: url("../images/billofright-1920.jpg");
 		background-size: cover;
 	}
-	
+
 	.text {
 		position: relative;
 		top: 50%;
 	}
-	
+
 	#scope {
 		margin: 200px 0;
 		padding: 2% 12%;
 		text-align: center;
 	}
-	
+
 	.process {
 		width: 100%;
 		display: flex;
@@ -482,7 +487,7 @@ footer button:hover {
 		justify-content: space-between;
 		margin: 200px 0;
 	}
-	
+
 	.process-2 {
 		width: 100%;
 		display: flex;
@@ -490,12 +495,12 @@ footer button:hover {
 		justify-content: space-between;
 		margin: 200px 0;
 	}
-	
+
 	.process-text {
 		width: 50%;
 		margin-left: 8%;
 	}
-	
+
 	.process-images {
 		width: 50%;
 		display: grid;
@@ -503,21 +508,21 @@ footer button:hover {
 		grid-template-rows: auto;
 		margin: 0;
 	}
-	
+
 	.process-images img {
 		width: 95%;
 		margin: 8px;
 	}
-	
+
 	.guidelines img {
 		width: 100%;
 	}
-	
+
 	.process-text-2 {
 		width: 50%;
 		margin-right: 8%;
 	}
-	
+
 	.process-images-2 {
 		width: 50%;
 		display: grid;
@@ -525,46 +530,46 @@ footer button:hover {
 		grid-template-row: auto;
 		margin: 0 auto;
 	}
-	
+
 	.process-images-2 img {
 		width: 95%;
 		margin: 8px;
 	}
-	
+
 	.guidelines {
 		margin: 0;
 	}
-	
+
 	#final {
 		display: flex;
 		flex-direction: column;
 		width: 100%;
 	}
-	
+
 	#final .process-text {
 		text-align: justify;
 		margin: 0 auto;
 		width: 80%;
 	}
-	
+
 	.links {
 		margin-top: 100px;
 	}
-	
+
 	.final-images {
 		text-align: center;
 		margin-top: 60px;
 	}
-	
+
 	.final-images img {
 		width: 40%;
 		padding: 8px;
 	}
-	
+
 	.sub-head {
 		margin: 5% 0 0 10%;
 	}
-	
+
 	.final-mobile {
 		text-align: center;
 	}
