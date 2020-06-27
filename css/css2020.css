@@ -205,7 +205,6 @@ a:hover {
 	height: 650px;
 	width: 100%;
 	position: relative;
-	top: 80px;
 }
 
 .text {
@@ -418,7 +417,6 @@ footer button:hover {
 
 	#header-image {
 		position: relative;
-		top: 80px;
 	}
 
 	.florence {
