@@ -193,6 +193,11 @@ a:hover {
 	background-image: url("../images/BoR-768x400.jpg");
 }
 
+.upwork-workout {
+	background-image: url("../images/upwork-workout-app-iphone_1920x1400.jpg");
+	background-size: cover;
+}
+
 .interactive-book {
 	width: 100%;
 	text-align: center;
