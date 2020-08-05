@@ -125,8 +125,23 @@ a:hover {
 	display: block;
 }
 
+
 #intro-header {
 	background-image: url("images/pattern-triangle.png");
+}
+
+.pattern {
+	position: absolute;
+	width: 75%;
+	height: auto;
+	top: 0;
+	right: 0;
+}
+
+.pattern img {
+	opacity: .2;
+	width: 100%;
+	transform: rotate(-90deg);
 }
 
 .intro-text {
@@ -135,7 +150,7 @@ a:hover {
 }
 
 .about-text {
-	margin-top: 500px;
+	margin-top: 200px;
 }
 
 #projects {
